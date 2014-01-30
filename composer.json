@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tr8n/tr8n-client-sdk": "dev-master"
+    }
+}
