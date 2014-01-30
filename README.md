@@ -1,7 +1,30 @@
+<p align="center">
+  <img src="https://raw.github.com/tr8n/tr8n/master/doc/screenshots/tr8nlogo.png">
+</p>
+
+
 PHP Sample Application
 ========================
 
 This sample application demonstrates some of the features of TML.
+
+
+Installation
+==================
+
+    $ curl -s http://getcomposer.org/installer | php
+    $ php composer.phar install
+
+
+Integration
+==================
+
+Before you can proceed with the integration, please visit http://tr8nhub.com register as a user and create a new application.
+
+Once you have created a new application, go to the security tab in the application administration section and copy your application key and secret.
+
+<img src="http://wiki.tr8nhub.com/images/thumb/f/f7/Application_Settings.png/800px-Application_Settings.png">
+
 
 
 Setup
