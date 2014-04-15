@@ -169,3 +169,20 @@ Language Cases
 
     tre("This is {user::pos} photo", array("user" => $male))
 
+
+
+Where can I get more information?
+==================
+
+* Register on Tr8nHub.com: https://tr8nhub.com
+
+* Read Tr8nHub's documentation: http://wiki.tr8nhub.com
+
+* Visit Tr8nHub's blog: http://blog.tr8nhub.com
+
+* Follow Tr8nHub on Twitter: https://twitter.com/Tr8nHub
+
+* Connect with Tr8nHub on Facebook: https://www.facebook.com/pages/tr8nhubcom/138407706218622
+
+* If you have any questions or suggestions, contact us: feedback@tr8nhub.com
+
