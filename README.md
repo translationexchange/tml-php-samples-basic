@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://raw.github.com/tr8n/tr8n/master/doc/screenshots/tr8nlogo.png">
+  <img src="https://avatars0.githubusercontent.com/u/1316274?v=3&s=200">
 </p>
-
 
 PHP Sample Application
 ========================
@@ -19,44 +18,40 @@ Installation
 Integration
 ==================
 
-Before you can proceed with the integration, please visit http://tr8nhub.com register as a user and create a new application.
+Before you can proceed with the integration, please visit http://translationexchange.com register as a user and create a new application.
 
 Once you have created a new application, go to the security tab in the application administration section and copy your application key and secret.
 
-<img src="http://wiki.tr8nhub.com/images/thumb/f/f7/Application_Settings.png/800px-Application_Settings.png">
-
-
-
 Setup
 ========================
-
-    class User {
-        public $name, $gender;
-        function __construct($name, $gender = "male") {
-            $this->name = $name;
-            $this->gender = $gender;
-        }
-        function __toString() {
-            return $this->name;
-        }
-        function fullName() {
-            return $this->name;
-        }
+```php
+class User {
+    public $name, $gender;
+    function __construct($name, $gender = "male") {
+        $this->name = $name;
+        $this->gender = $gender;
     }
-
-    class Number {
-        public $value;
-        function __construct($value) {
-            $this->value = $value;
-        }
-        function __toString() {
-            return "" . $this->value;
-        }
+    function __toString() {
+        return $this->name;
     }
+    function fullName() {
+        return $this->name;
+    }
+}
 
-    $male = new User("Michael", "male");
-    $female = new User("Anna", "female");
+class Number {
+    public $value;
+    function __construct($value) {
+        $this->value = $value;
+    }
+    function __toString() {
+        return "" . $this->value;
+    }
+}
 
+$male = new User("Michael", "male");
+$female = new User("Anna", "female");
+```
 
 Basics
 ========================
