@@ -115,19 +115,17 @@ Nested Tokens
 ========================
 ```php
 tre("You have [link: {count||message}]", array(
-                        "count" => 10,
-                        "link" => function($value) { return "<a href='http://www.google.com'> $value </a>"; }
-                    )
-)
+    "count" => 10,
+    "link" => function($value) { return "<a href='http://www.google.com'> $value </a>"; }
+));
 
 tre("[bold: {user}], you have [italic: [link: [bold: {count}] {count|message}]]!", array(
-                        "user" => $male,
-                        "count" => 10,
-                        "italic" => '<i>{$0}</i>',
-                        "bold" => '<strong>{$0}</strong>',
-                        "link" => function($value) { return "<a href='http://www.google.com'> $value </a>"; }
-                    )
-)
+    "user" => $male,
+    "count" => 10,
+    "italic" => '<i>{$0}</i>',
+    "bold" => '<strong>{$0}</strong>',
+    "link" => function($value) { return "<a href='http://www.google.com'> $value </a>"; }
+));
 ```
 
 HTML to TML Converter
