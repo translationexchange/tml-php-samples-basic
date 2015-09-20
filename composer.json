@@ -1,5 +1,5 @@
 {
     "require": {
-        "translationexchange/tml": "dev-master"
+        "translationexchange/tml": "3.0.1"
     }
 }

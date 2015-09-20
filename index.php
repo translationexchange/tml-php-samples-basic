@@ -1,6 +1,8 @@
-<?php require_once(__DIR__ . '/vendor/translationexchange/tml/library/tml.php'); ?>
-<?php tml_init(); ?>
-
+<?php require_once(__DIR__ . '/vendor/translationexchange/tml/src/init.php'); ?>
+<?php tml_init(array(
+    "key" => "YOUR-KEY",
+    "token" => "YOUR-TOKEN"
+)); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml"
